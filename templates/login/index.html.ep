@@ -1,0 +1,16 @@
+% layout 'default';
+%= form_for index => (method => 'post') => begin
+  % if (param 'user') {
+    <b>Mauvaise combinaison Login/Password.</b><br>
+  % }
+    <br/>
+    <br/>
+    %= text_field 'user', placeholder => 'Login'
+    <br/>
+    %= password_field 'pass', placeholder => 'Password'
+    <br/>
+    %= submit_button 'Connexion', class => 'btn btn-info'
+  % end
+  <br/><br/>
+  <a href="/register">S'enregistrer</a>
+
