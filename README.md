@@ -1,7 +1,5 @@
 #Url shortner "Mojo"
-####First version was made for a demonstration at @webdevesgi 's association
-
-==================
+####[First Version] was made for a demonstration at @webdevesgi 's association
 
 Done:
 
@@ -17,3 +15,5 @@ Todo:
 - Send mail after registration
 - Make graphs for clicks, per day
 - Rest API with auth token to create short url
+
+  [first version]: https://github.com/webdevesgi/mojolicious-demo   
